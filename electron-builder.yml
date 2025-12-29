@@ -1,0 +1,15 @@
+appId: com.exambrowser.app
+productName: Exam Browser
+directories:
+  output: release
+files:
+  - dist/**/*
+  - package.json
+mac:
+  category: public.app-category.education
+  target: dmg
+win:
+  target: nsis
+linux:
+  target: AppImage
+
